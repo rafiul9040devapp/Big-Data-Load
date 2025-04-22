@@ -1,4 +1,4 @@
-import 'package:big_data_load_with_concurrency/screens/short_isolate_page/provider/push_event.dart';
+import 'package:big_data_load_with_concurrency/screens/short_isolate_page/provider/push_event_state.dart';
 import 'package:big_data_load_with_concurrency/screens/short_isolate_page/provider/short_isolate_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

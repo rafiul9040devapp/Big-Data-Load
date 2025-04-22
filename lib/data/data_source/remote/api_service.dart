@@ -61,7 +61,7 @@ class ApiServiceImpl extends ApiService {
         (success) async {
           final response = success.data;
           final pushList = await Isolate.run(() {
-            final List<dynamic> jsonList = jsonDecode(response); // Now it's a List
+            final List<dynamic> jsonList = jsonDecode(response);
             return jsonList
                 .map((e) => PushEvent.fromJson(e).repo?.name ?? "No repo")
                 .toList();

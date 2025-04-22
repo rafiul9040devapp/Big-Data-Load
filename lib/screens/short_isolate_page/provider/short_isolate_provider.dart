@@ -1,6 +1,6 @@
 
 import 'package:big_data_load_with_concurrency/repository/push_event_repository.dart';
-import 'package:big_data_load_with_concurrency/screens/short_isolate_page/provider/push_event.dart';
+import 'package:big_data_load_with_concurrency/screens/short_isolate_page/provider/push_event_state.dart';
 import 'package:riverpod/riverpod.dart';
 
 import '../../../di/injection_container.dart';
